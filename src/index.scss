@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import "~rfs/scss";
 
 * {
     color: #fff;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -11,7 +13,14 @@
 
 .footer {
     height: 8vh;
-    // background-color: red;
+
+    .copyright {
+        @include font-size(1rem);
+    }
+
+    .social-icons {
+        width: 7vw;
+    }
 }
 
 .home,
