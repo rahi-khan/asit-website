@@ -7,12 +7,12 @@
 }
 
 .header {
-    height: 12vh;
+    height: 11vh;
     // background-color: red;
 }
 
 .footer {
-    height: 8vh;
+    height: 9vh;
 
     .copyright {
         @include font-size(1rem);
@@ -20,6 +20,31 @@
 
     .social-icons {
         width: 7vw;
+
+        :first-child {
+            transition: all 0.25s ease-out;
+            &:hover {
+                color: #1877f2;
+                transform: scale(1.1);
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+        :last-child {
+            transition: all 0.25s ease-out;
+            &:hover {
+                color: #0077b5;
+                transform: scale(1.1);
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+
+        .fab {
+            @include font-size(2rem);
+        }
     }
 }
 

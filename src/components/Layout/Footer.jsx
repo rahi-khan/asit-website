@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => (
     <Container>
@@ -10,8 +9,12 @@ const Footer = () => (
             </div>
 
             <div className="social-icons d-flex justify-content-between">
-                <FaFacebookSquare size={30} className="mr-2" />
-                <FaLinkedin size={30} />
+                <a href="#" className="mr-2">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#" className="mr-2">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </div>
     </Container>
