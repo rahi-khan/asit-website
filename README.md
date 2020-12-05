@@ -1,34 +1,7 @@
-# Custom React Template for building UI 💩
+# ASIT Website
 
-### This project was bootstrapped with [Create React App](https://create-react-app.dev/)
+> Official Website for Advanced Software And IT Services Ltd (ASIT)
 
-### Check it out [here](https://react-template-pro.netlify.app/)
+### Check it out live [here](https://asit-website.netlify.app/)
 
----
-
-### Integrated:
-
-1. Axios (HTTP Client)
-2. Bootstrap
-3. React Bootstrap
-4. React Icons
-5. React Router
-6. SASS
-7. NanoID
-
----
-
-### How to use:
-
-1. ### `gh repo clone rahikhan360/React-Template-Pro [your-dir-name]`
-
-    or `git clone https://github.com/rahikhan360/React-Template-Pro.git [your-dir-name]`  
-    or hit `Use this template`
-
-2. ### `cd [your-dir-name]`
-
-3. ### `npm i`
-
-4. ### `npm start`
-
-5. ### `npm run build` [only when production ready]
+### This project was generated from my [personal react template](https://github.com/rahi-khan/React-Template-Pro) which was bootstraped with [Create React App](https://create-react-app.dev/) including additional functionalities.
