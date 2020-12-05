@@ -1,0 +1,43 @@
+@import "~rfs/scss";
+
+.App {
+    height: 90vh;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    color: #fff;
+    &:hover {
+        color: #c9c9c9;
+    }
+}
+
+.navvy {
+    height: 10vh;
+}
+
+.integrations-header,
+.contact-header,
+.home-header {
+    @include font-size(2rem);
+}
+
+.icon,
+.brand-name,
+.integrations-list {
+    @include font-size(1.5rem);
+    color: #61dafb;
+}
