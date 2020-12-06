@@ -9,9 +9,11 @@ const Footer = () => (
             </div>
 
             <div className="social-icons d-flex justify-content-between">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#" className="mr-2">
                     <i class="fab fa-facebook-square"></i>
                 </a>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#" className="mr-2">
                     <i class="fab fa-linkedin"></i>
                 </a>
