@@ -3,7 +3,6 @@
 @import "~rfs/scss";
 
 * {
-    color: #fff;
     font-family: "Poppins", sans-serif;
 }
 
@@ -12,11 +11,12 @@ a {
     transition: all 0.25s ease-out;
 
     &:hover {
-        color: rgb(167, 167, 167);
+        color: rgb(134, 134, 134);
         text-decoration: overline;
     }
 }
 
+//! Header Styles
 .header {
     height: 13vh;
 
@@ -42,20 +42,19 @@ a {
     .heading {
         width: 60%;
     }
+
     .nav-links {
         width: 20%;
+
+        * {
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
     }
 }
 
-.home,
-.leadteam,
-.story,
-.notFound,
-.spinner {
-    height: 80vh;
-    // background-color: green;
-}
-
+//! Footer Styles
 .footer {
     height: 7vh;
 
@@ -93,6 +92,7 @@ a {
     }
 }
 
+//! Not Found Styles
 .notFound {
     .errorHeading {
         @include font-size(2rem);
@@ -116,5 +116,21 @@ a {
         &:active {
             transform: scale(0.9);
         }
+    }
+}
+
+.home,
+.leadteam,
+.story,
+.notFound,
+.spinner {
+    height: 80vh;
+}
+
+.leadteam {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
     }
 }

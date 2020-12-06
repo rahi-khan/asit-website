@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 const Footer = () => (
     <Container>
         <div className="footer d-flex justify-content-between align-items-center">
-            <div className="copyright">
+            <div className="copyright text-white">
                 Copyright &copy;
                 {new Date().getFullYear()} ASIT UI/UX Team Development
             </div>

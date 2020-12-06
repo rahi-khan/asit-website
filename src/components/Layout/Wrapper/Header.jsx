@@ -1,18 +1,20 @@
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from "../../images/ASIT_Logo.png";
+import logo from "../../../images/ASIT_Logo.png";
 
 const Header = () => (
     <Container>
-        <div className="header d-flex justify-content-between align-items-center">
+        <div className="header d-flex justify-content-between align-items-center text-white">
             {/*//! Logo */}
             <div class="logo-container">
                 <div class="logo-container__circle">
-                    <img
-                        src={logo}
-                        alt="Advanced Software And IT Services Ltd. Logo"
-                        class="img-fluid"
-                    />
+                    <Link to="/">
+                        <img
+                            src={logo}
+                            alt="Advanced Software And IT Services Ltd. Logo"
+                            class="img-fluid"
+                        />
+                    </Link>
                 </div>
             </div>
 

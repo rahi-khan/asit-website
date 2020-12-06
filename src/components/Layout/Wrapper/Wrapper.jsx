@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 import Layout from "./Layout";
-import BG from "../../images/background-image-overlay.jpg";
+import BG from "../../../images/background-image-overlay.jpg";
 import LoadingSpinner from "./LoadingSpinner";
 
 const Wrapper = ({ children }) => (

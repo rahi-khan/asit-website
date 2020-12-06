@@ -1,6 +1,6 @@
 import { lazy } from "react";
 import { Route } from "react-router-dom";
-import Wrapper from "./components/Layout/Wrapper";
+import Wrapper from "./components/Layout/Wrapper/Wrapper";
 
 const Home = lazy(() => import("./pages/Home"));
 const LeadTeam = lazy(() => import("./pages/LeadTeam"));
