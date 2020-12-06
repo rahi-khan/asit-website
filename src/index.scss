@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
 @import "~rfs/scss";
 
 * {
@@ -8,7 +9,15 @@
 
 .header {
     height: 11vh;
-    // background-color: red;
+    background-color: rgb(82, 3, 3);
+}
+
+.home,
+.leadteam,
+.story,
+.notFound {
+    height: 80vh;
+    // background-color: green;
 }
 
 .footer {
@@ -48,9 +57,28 @@
     }
 }
 
-.home,
-.leadteam,
-.story {
-    height: 80vh;
-    // background-color: green;
+.notFound {
+    .errorHeading {
+        @include font-size(2rem);
+    }
+    .oops {
+        font-family: "Nerko One", cursive;
+        @include font-size(13rem);
+        letter-spacing: 0.5rem;
+    }
+    .backToHomeBtn {
+        border-color: #fff;
+        border-radius: 2rem;
+        padding: 0.6rem 1.1rem;
+        color: #fff;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            border-color: #0275db;
+            transform: scale(1.1);
+        }
+        &:active {
+            transform: scale(0.9);
+        }
+    }
 }
