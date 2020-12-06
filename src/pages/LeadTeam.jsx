@@ -1,5 +1,5 @@
 const LeadTeam = () => {
-    return <div className="leadteam">LeadTeam</div>;
+    return <div className="leadteam"></div>;
 };
 
 export default LeadTeam;

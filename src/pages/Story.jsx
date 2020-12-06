@@ -1,5 +1,5 @@
 const Story = () => {
-    return <div className="story">Story</div>;
+    return <div className="story"></div>;
 };
 
 export default Story;

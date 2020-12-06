@@ -7,21 +7,57 @@
     font-family: "Poppins", sans-serif;
 }
 
+a {
+    color: #fff;
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        color: rgb(167, 167, 167);
+        text-decoration: overline;
+    }
+}
+
 .header {
-    height: 11vh;
-    background-color: rgb(82, 3, 3);
+    height: 13vh;
+
+    h3 {
+        @include font-size(1.5rem);
+    }
+
+    .logo-container {
+        width: 20%;
+
+        &__circle {
+            width: 30%;
+            height: 10vh;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 5px 3px #fff;
+        }
+    }
+
+    .heading {
+        width: 60%;
+    }
+    .nav-links {
+        width: 20%;
+    }
 }
 
 .home,
 .leadteam,
 .story,
-.notFound {
+.notFound,
+.spinner {
     height: 80vh;
     // background-color: green;
 }
 
 .footer {
-    height: 9vh;
+    height: 7vh;
 
     .copyright {
         @include font-size(1rem);
