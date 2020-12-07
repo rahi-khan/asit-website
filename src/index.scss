@@ -27,7 +27,6 @@ a {
 
     &:hover {
         color: rgb(134, 134, 134);
-        text-decoration: overline;
     }
 }
 
@@ -64,6 +63,7 @@ a {
         * {
             &:hover {
                 transform: scale(1.1);
+                text-decoration: overline;
             }
         }
     }
@@ -139,7 +139,7 @@ a {
 .story,
 .notFound,
 .spinner {
-    height: 100vh;
+    height: 80vh;
 }
 
 .leadteam {
@@ -241,7 +241,7 @@ a {
         display: grid;
         grid-template-columns: repeat(3, calc(15vw + 15vh));
         grid-template-rows: repeat(2, auto);
-        grid-gap: 2rem;
+        grid-gap: calc(2vw + 2vh);
 
         .service {
             border: 2px solid #fff;

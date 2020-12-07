@@ -8,7 +8,7 @@ import { Button } from "react-bootstrap";
 
 const ERP = () => (
     <div className="mb-5">
-        <h1 className="service-header mb-3 font-weight-bold">ERP</h1>
+        <h2 className="service-header mb-4 font-weight-bold">ERP</h2>
 
         <div className="gen-services">
             <div className="service">
@@ -17,12 +17,12 @@ const ERP = () => (
                 <Button variant="outline-light">View More</Button>
             </div>
             <div className="service">
-                <img className="mb-0" src={construction} alt="construction" />
+                <img className="mb-0" src={garments} alt="construction" />
                 <h5 className="my-3">Footwear & Garments</h5>
                 <Button variant="outline-light">View More</Button>
             </div>
             <div className="service">
-                <img className="mb-0" src={garments} alt="garments" />
+                <img className="mb-0" src={construction} alt="garments" />
                 <h5 className="my-3">Construction & Project Management</h5>
                 <Button variant="outline-light">View More</Button>
             </div>

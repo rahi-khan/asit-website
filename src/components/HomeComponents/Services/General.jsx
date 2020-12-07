@@ -8,7 +8,7 @@ import { Button } from "react-bootstrap";
 
 const General = () => (
     <div className="mb-5">
-        <h1 className="service-header mb-3 font-weight-bold">General</h1>
+        <h2 className="service-header mb-4 font-weight-bold">General</h2>
 
         <div className="gen-services">
             <div className="service">
