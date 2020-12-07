@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => (
-    <div className="hero d-flex justify-content-between align-items-center">
+    <div id="hero" className="hero d-flex justify-content-between align-items-center">
         {/*//! Heading */}
         <div className="heading d-flex flex-column justify-content-center align-items-start">
             <h1 className="title font-weight-bold display-4">
@@ -26,7 +26,7 @@ const Hero = () => (
                 />
             </h4>
 
-            <div class="call-to-action mt-4">
+            <div class="call-to-action mt-5">
                 <div className="ml-3">
                     <p>Want to Digitalize your business? Why not start today?</p>
                     <Button variant="outline-light"> Get Started</Button>
