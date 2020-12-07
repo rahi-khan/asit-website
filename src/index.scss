@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import "~rfs/scss";
 
+//* Background Colors
+// .home {
+//     background-color: rgb(105, 3, 3);
+// }
+// .hero {
+//     background-color: rgb(191, 5, 216);
+// }
+// .about {
+//     background-color: rgb(8, 189, 202);
+// }
+// .services {
+//     background-color: rgb(15, 211, 119);
+// }
+
+//! Global Styles
 * {
     font-family: "Poppins", sans-serif;
     color: #fff;
@@ -136,8 +151,6 @@ a {
 }
 
 .home {
-    background-color: rgb(105, 3, 3);
-
     overflow-y: scroll;
     scrollbar-width: none;
     &::-webkit-scrollbar {
@@ -146,7 +159,6 @@ a {
 }
 
 .hero {
-    background-color: rgb(191, 5, 216);
     margin: calc(5vw + 5vh) 0;
 
     .heading {
@@ -201,7 +213,7 @@ a {
             &:hover {
                 transform: scale(1.1);
                 background-color: #fff;
-                
+
                 i,
                 h4,
                 small {
@@ -218,13 +230,11 @@ a {
 }
 
 .about {
-    margin: calc(5vw + 5vh) 0;
-    background-color: rgb(8, 189, 202);
+    margin: calc(10vw + 10vh) 0;
 }
 
 .services {
-    margin: calc(5vw + 5vh) 0;
-    background-color: rgb(15, 211, 119);
+    margin: calc(10vw + 10vh) 0;
 
     .gen-services,
     .erp-services {
