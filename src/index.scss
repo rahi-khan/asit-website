@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import "~rfs/scss";
 
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
 }
 
 a {
@@ -132,5 +132,43 @@ a {
     scrollbar-width: none;
     &::-webkit-scrollbar {
         display: none;
+    }
+}
+
+.home {
+    background-color: rgb(105, 3, 3);
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.hero {
+    background-color: rgb(105, 3, 3);
+    height: 80vh;
+
+    .heading {
+        background-color: rgb(193, 206, 8);
+
+        width: 45%;
+        height: 70%;
+
+        .title {
+            color: #70ac47;
+            @include font-size(3rem);
+        }
+
+        .call-to-action {
+            border-left: 0.4rem solid #fff;
+        }
+    }
+
+    .stats {
+        background-color: rgb(163, 6, 168);
+
+        width: 45%;
+        height: 70%;
     }
 }
