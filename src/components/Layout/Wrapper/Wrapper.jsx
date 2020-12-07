@@ -1,17 +1,19 @@
 import { Suspense } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import Layout from "./Layout";
 import BG from "../../../images/background-image-overlay.jpg";
 import LoadingSpinner from "./LoadingSpinner";
+import Header from "./Header";
+import Footer from "./Footer";
+import { Container } from "react-bootstrap";
 
 const Wrapper = ({ children }) => (
     <Router>
-        <div className="BG" style={BGstyles}>
-            <Layout>
-                <Suspense fallback={<LoadingSpinner />}>
-                    <Switch>{children}</Switch>
-                </Suspense>
-            </Layout>
+        <div className="App" style={BGstyles}>
+            <Header />
+
+            <Suspense fallback={<LoadingSpinner />}>
+                <Switch>{children}</Switch>
+            </Suspense>
         </div>
     </Router>
 );

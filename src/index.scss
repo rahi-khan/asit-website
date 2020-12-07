@@ -14,6 +14,9 @@
 // .services {
 //     background-color: rgb(15, 211, 119);
 // }
+.clients {
+    background-color: rgb(6, 71, 145);
+}
 
 //! Global Styles
 * {
@@ -28,6 +31,10 @@ a {
     &:hover {
         color: rgb(134, 134, 134);
     }
+}
+
+.App {
+    height: 100vh;
 }
 
 //! Header Styles
@@ -71,7 +78,9 @@ a {
 
 //! Footer Styles
 .footer {
-    height: 7vh;
+    background-color: #1b1b1b;
+
+    height: 10vh;
 
     .copyright {
         @include font-size(1rem);
@@ -107,7 +116,21 @@ a {
     }
 }
 
-//! Not Found Styles
+.home,
+.leadteam,
+.story,
+.notFound,
+.spinner {
+    height: 87vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+//! Not Found Page Styles
 .notFound {
     .errorHeading {
         @include font-size(2rem);
@@ -134,30 +157,7 @@ a {
     }
 }
 
-.home,
-.leadteam,
-.story,
-.notFound,
-.spinner {
-    height: 80vh;
-}
-
-.leadteam {
-    overflow-y: scroll;
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
-
-.home {
-    overflow-y: scroll;
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-        display: none;
-    }
-}
-
+//! Hero
 .hero {
     margin: calc(5vw + 5vh) 0;
 
@@ -229,10 +229,12 @@ a {
     }
 }
 
+//! About
 .about {
     margin: calc(10vw + 10vh) 0;
 }
 
+//! Services
 .services {
     margin: calc(10vw + 10vh) 0;
 
@@ -287,4 +289,9 @@ a {
             }
         }
     }
+}
+
+//! Clients
+.clients {
+    margin: calc(10vw + 10vh) 0;
 }

@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
 
 const Footer = () => (
-    <Container>
-        <div className="footer d-flex justify-content-between align-items-center">
+    <div className="footer w-100 d-flex align-content-center">
+        <Container className="d-flex justify-content-between align-items-center">
             <div className="copyright text-white">
                 Copyright &copy;
                 {new Date().getFullYear()} ASIT UI/UX Team Development
@@ -18,8 +18,8 @@ const Footer = () => (
                     <i className="fab fa-linkedin"></i>
                 </a>
             </div>
-        </div>
-    </Container>
+        </Container>
+    </div>
 );
 
 export default Footer;
