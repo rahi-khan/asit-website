@@ -5,7 +5,7 @@ const Hero = () => (
     <div className="hero d-flex justify-content-between align-items-center">
         {/*//! Heading */}
         <div className="heading d-flex flex-column justify-content-center align-items-start">
-            <h1 className="title font-weight-bolder">
+            <h1 className="title font-weight-bold display-4">
                 The Perfect
                 <br />
                 ERP Solution
@@ -53,7 +53,7 @@ const Hero = () => (
                 <h4 className="mb-0">25000+</h4>
                 <small>Active Users</small>
             </div>
-            
+
             <div className="box">
                 <i class="far fa-clock mb-3"></i>
                 <h4 className="mb-0">24/7</h4>

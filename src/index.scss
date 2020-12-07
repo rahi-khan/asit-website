@@ -136,7 +136,7 @@ a {
 }
 
 .home {
-   // background-color: rgb(105, 3, 3);
+    background-color: rgb(105, 3, 3);
 
     overflow-y: scroll;
     scrollbar-width: none;
@@ -146,18 +146,15 @@ a {
 }
 
 .hero {
-    //background-color: rgb(105, 3, 3);
+    background-color: rgb(191, 5, 216);
     height: 80vh;
 
     .heading {
-       // background-color: rgb(193, 206, 8);
-
         width: 45%;
         height: 70%;
 
         .title {
             color: #70ac47;
-            @include font-size(3rem);
         }
 
         .call-to-action {
@@ -183,8 +180,6 @@ a {
     }
 
     .stats {
-        //background-color: rgb(163, 6, 168);
-
         width: 45%;
         height: 70%;
         display: grid;
@@ -206,4 +201,9 @@ a {
             @include font-size(3rem);
         }
     }
+}
+
+.about {
+    height: 80vh;
+    background-color: rgb(8, 189, 202);
 }
