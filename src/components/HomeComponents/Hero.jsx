@@ -29,13 +29,37 @@ const Hero = () => (
             <div class="call-to-action mt-4">
                 <div className="ml-3">
                     <p>Want to Digitalize your business? Why not start today?</p>
-                    <Button variant="outline-primary"> Get Started</Button>
+                    <Button variant="outline-light"> Get Started</Button>
                 </div>
             </div>
         </div>
 
         {/*//! Stats */}
-        <div className="stats">Stats</div>
+        <div className="stats">
+            <div className="box">
+                <i class="far fa-calendar-alt mb-3"></i>
+                <h4 className="mb-0">2010</h4>
+                <small>We Started</small>
+            </div>
+
+            <div className="box">
+                <i class="fas fa-briefcase mb-3"></i>
+                <h4 className="mb-0">50+</h4>
+                <small>ERP Deliveries</small>
+            </div>
+
+            <div className="box">
+                <i class="fas fa-users mb-3"></i>
+                <h4 className="mb-0">25000+</h4>
+                <small>Active Users</small>
+            </div>
+            
+            <div className="box">
+                <i class="far fa-clock mb-3"></i>
+                <h4 className="mb-0">24/7</h4>
+                <small>Client Support</small>
+            </div>
+        </div>
     </div>
 );
 

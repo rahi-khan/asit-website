@@ -136,7 +136,7 @@ a {
 }
 
 .home {
-    background-color: rgb(105, 3, 3);
+   // background-color: rgb(105, 3, 3);
 
     overflow-y: scroll;
     scrollbar-width: none;
@@ -146,11 +146,11 @@ a {
 }
 
 .hero {
-    background-color: rgb(105, 3, 3);
+    //background-color: rgb(105, 3, 3);
     height: 80vh;
 
     .heading {
-        background-color: rgb(193, 206, 8);
+       // background-color: rgb(193, 206, 8);
 
         width: 45%;
         height: 70%;
@@ -162,13 +162,48 @@ a {
 
         .call-to-action {
             border-left: 0.4rem solid #fff;
+
+            button {
+                width: calc(8vw + 8vh);
+                height: calc(2.5vw + 2.5vh);
+                border: 1px solid #fff;
+                @include font-size(1.1rem);
+                color: #fff;
+                transition: all 0.2s ease-out;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+                &:active {
+                    transform: scale(0.9);
+                }
+            }
         }
     }
 
     .stats {
-        background-color: rgb(163, 6, 168);
+        //background-color: rgb(163, 6, 168);
 
         width: 45%;
         height: 70%;
+        display: grid;
+        grid-template-columns: repeat(2, 13vw);
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 2rem;
+        justify-content: end;
+
+        .box {
+            border: 2px solid #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .far,
+        .fas {
+            @include font-size(3rem);
+        }
     }
 }

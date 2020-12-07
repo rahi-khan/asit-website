@@ -17,7 +17,7 @@ const Wrapper = ({ children }) => (
 );
 
 const BGstyles = {
-    background: `linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${BG})`,
+    background: `linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(${BG})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
 };
