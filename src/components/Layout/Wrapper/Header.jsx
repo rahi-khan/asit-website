@@ -6,13 +6,13 @@ const Header = () => (
     <Container>
         <div className="header d-flex justify-content-between align-items-center text-white">
             {/*//! Logo */}
-            <div class="logo-container">
-                <div class="logo-container__circle">
+            <div className="logo-container">
+                <div className="logo-container__circle">
                     <Link to="/">
                         <img
                             src={logo}
                             alt="Advanced Software And IT Services Ltd. Logo"
-                            class="img-fluid"
+                            className="img-fluid"
                         />
                     </Link>
                 </div>
@@ -21,7 +21,7 @@ const Header = () => (
             {/*//! Heading */}
             <div className="heading text-center">
                 <h3 className="mb-0 mt-2">Advanced Software And IT Services Ltd</h3>
-                <span class="text-muted">Your Professional IT Partner</span>
+                <span className="text-muted">Your Professional IT Partner</span>
             </div>
 
             {/*//! Links */}
