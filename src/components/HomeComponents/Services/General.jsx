@@ -1,4 +1,4 @@
-import genServiceData from "./genServiceData.js";
+import genServiceData from "./genServiceData";
 import Service from "./Service.jsx";
 
 const General = () => (
