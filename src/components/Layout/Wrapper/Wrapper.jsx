@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Switch } from "react-router-dom";
 import BG from "../../../images/background-image-overlay.jpg";
 import LoadingSpinner from "./LoadingSpinner";
 import Header from "./Header";
-import Footer from "./Footer";
-import { Container } from "react-bootstrap";
 
 const Wrapper = ({ children }) => (
     <Router>
