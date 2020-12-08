@@ -1,5 +1,5 @@
-import ERP from "./ERP";
-import General from "./General";
+import ERP from "./ERP/ERP";
+import General from "./General/General";
 
 const Services = () => (
     <div

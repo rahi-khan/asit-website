@@ -1,5 +1,5 @@
 import erpServiceData from "./erpServiceData.js";
-import Service from "./Service.jsx";
+import Service from "../Service.jsx";
 
 const ERP = () => (
     <div className="mb-5">

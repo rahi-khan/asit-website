@@ -1,9 +1,9 @@
-import realestate from "../../../images/Services_section/erp/realestate.svg";
-import construction from "../../../images/Services_section/erp/construction.svg";
-import garments from "../../../images/Services_section/erp/garments.svg";
-import healthcare from "../../../images/Services_section/erp/healthcare.svg";
-import manufacture from "../../../images/Services_section/erp/manufacture.svg";
-import trademanagement from "../../../images/Services_section/erp/trademanagement.svg";
+import realestate from "../../../../images/Services_section/erp/realestate.svg";
+import construction from "../../../../images/Services_section/erp/construction.svg";
+import garments from "../../../../images/Services_section/erp/garments.svg";
+import healthcare from "../../../../images/Services_section/erp/healthcare.svg";
+import manufacture from "../../../../images/Services_section/erp/manufacture.svg";
+import trademanagement from "../../../../images/Services_section/erp/trademanagement.svg";
 
 const erpServiceData = [
     { id: 1, title: "Real Estate & Land Management", type: "realestate", imgSrc: realestate },

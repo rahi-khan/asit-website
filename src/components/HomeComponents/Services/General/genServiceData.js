@@ -1,9 +1,9 @@
-import accounting from "../../../images/Services_section/general/accounting.svg";
-import trading from "../../../images/Services_section/general/trading.svg";
-import healthcare from "../../../images/Services_section/general/healthcare.svg";
-import travel from "../../../images/Services_section/general/travel.svg";
-import shop from "../../../images/Services_section/general/shop.svg";
-import school from "../../../images/Services_section/general/school.svg";
+import accounting from "../../../../images/Services_section/general/accounting.svg";
+import trading from "../../../../images/Services_section/general/trading.svg";
+import healthcare from "../../../../images/Services_section/general/healthcare.svg";
+import travel from "../../../../images/Services_section/general/travel.svg";
+import shop from "../../../../images/Services_section/general/shop.svg";
+import school from "../../../../images/Services_section/general/school.svg";
 
 const genServiceData = [
     { id: 1, title: "Easy Accounting", type: "accounting", imgSrc: accounting },

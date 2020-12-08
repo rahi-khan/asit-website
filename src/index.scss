@@ -247,7 +247,7 @@ a {
 
         .service {
             border: 2px solid #fff;
-            padding: 1rem 0;
+            padding: 1rem 0.3rem;
             transition: all 0.25s ease-out;
             display: flex;
             flex-direction: column;
@@ -349,6 +349,78 @@ a {
 
                     h5 {
                         color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//! Testimonials
+.testimonials {
+    margin: calc(10vw + 10vh) 0;
+
+    .testimonials-list {
+        margin: 3rem auto;
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            color: #ff9800;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .row {
+            margin: 30px;
+
+            .col-md-4 {
+                margin: 40px auto;
+
+                .profile {
+                    border-radius: 2.5rem;
+                    padding-top: 4.5rem;
+
+                    img {
+                        top: -60px;
+                        position: absolute;
+                        left: calc(50% - 3.75rem);
+                        width: 8rem;
+                        height: 8rem;
+                        border-radius: 50%;
+                    }
+
+                    h3 {
+                        @include font-size(1.5rem);
+                        color: #2fa4f1;
+
+                        small {
+                            @include font-size(1rem);
+                        }
+                    }
+
+                    blockquote {
+                        @include font-size(0.95rem);
+                        line-height: 1.8rem;
+
+                        &::before {
+                            content: "\201C";
+                            @include font-size(3.125rem);
+                            position: relative;
+                            line-height: 1.25rem;
+                            color: #2fa4f1;
+                            bottom: -15px;
+                            right: 5px;
+                        }
+
+                        &::after {
+                            content: "\201C";
+                            @include font-size(3.125rem);
+                            position: relative;
+                            line-height: 0.625rem;
+                            color: #2fa4f1;
+                            bottom: -15px;
+                            left: 5px;
+                        }
                     }
                 }
             }

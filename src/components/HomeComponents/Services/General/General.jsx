@@ -1,5 +1,5 @@
 import genServiceData from "./genServiceData";
-import Service from "./Service.jsx";
+import Service from "../Service.jsx";
 
 const General = () => (
     <div className="mb-5">
