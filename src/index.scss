@@ -80,38 +80,33 @@ a {
 .footer {
     background-color: #1b1b1b;
 
-    height: 10vh;
+    height: 15vh;
 
     .copyright {
-        @include font-size(1rem);
+        h5 {
+            @include font-size(1.5rem);
+        }
+        span {
+            @include font-size(1rem);
+        }
     }
 
     .social-icons {
         width: 7vw;
 
-        :first-child {
-            transition: all 0.25s ease-out;
-            &:hover {
-                color: rgb(134, 134, 134);
-                transform: scale(1.1);
-            }
-            &:active {
-                transform: scale(0.9);
-            }
-        }
-        :last-child {
-            transition: all 0.25s ease-out;
-            &:hover {
-                color: rgb(134, 134, 134);
-                transform: scale(1.1);
-            }
-            &:active {
-                transform: scale(0.9);
-            }
-        }
-
         .fab {
             @include font-size(2rem);
+            color: #6c757d;
+            transition: all 0.25s ease-out;
+
+            &:hover {
+                color: rgb(255, 255, 255);
+                transform: scale(1.1);
+            }
+
+            &:active {
+                transform: scale(0.95);
+            }
         }
     }
 }
@@ -393,7 +388,7 @@ a {
                         @include font-size(1.5rem);
                         color: #2fa4f1;
 
-                        small {
+                        span {
                             @include font-size(1rem);
                         }
                     }

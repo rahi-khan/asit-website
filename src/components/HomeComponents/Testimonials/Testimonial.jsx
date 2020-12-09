@@ -7,7 +7,7 @@ const Testimonial = ({ data: { name, job, imgSrc, desc } }) => (
 
             <h3 className="mt-4 font-weight-bold">
                 {name} <br />
-                <small className="text-muted font-weight-bold">{job}</small>
+                <span className="text-muted font-weight-bold">{job}</span>
             </h3>
         </div>
     </div>
