@@ -6,6 +6,7 @@ import Clients from "../components/HomeComponents/Clients/Clients";
 import Footer from "../components/Layout/Wrapper/Footer";
 import { Container } from "react-bootstrap";
 import Testimonials from "../components/HomeComponents/Testimonials/Testimonials";
+import Contact from "../components/HomeComponents/Contact/Contact";
 
 const Home = () => (
     <CustomScroller>
@@ -16,6 +17,7 @@ const Home = () => (
                 <Services />
                 <Clients />
                 <Testimonials />
+                <Contact />
             </Container>
 
             <Footer />

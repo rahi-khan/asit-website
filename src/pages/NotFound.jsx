@@ -10,7 +10,9 @@ const NotFound = () => (
                 Go Back Home
             </Button>
         </Link>
+        
     </div>
 );
+
 
 export default NotFound;
