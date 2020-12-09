@@ -10,11 +10,11 @@ const Contact = () => (
 
         <div className="container contact-section text-left p-3 mb-5">
             <div className="row">
-                <div className="col-sm">
+                <div className="col-md-6">
                     <ContactForm />
                 </div>
 
-                <div className="col-sm">
+                <div className="col-md-6">
                     <ContactInfos />
                 </div>
             </div>

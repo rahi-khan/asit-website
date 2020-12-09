@@ -426,8 +426,6 @@ a {
 //! Contact
 .contacts {
     .contact-section {
-        border: 1px solid #fff;
-
         input,
         textarea {
             transition: all 0.2s ease-in-out;
@@ -454,9 +452,17 @@ a {
 
         .contact-infos {
             background-color: #fff;
+            height: 100%;
 
-            address {
+            span,
+            a,
+            i {
+                @include font-size(0.9rem);
                 color: #000;
+            }
+
+            i {
+                @include font-size(1.5rem);
             }
         }
     }
