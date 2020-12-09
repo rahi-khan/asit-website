@@ -8,13 +8,14 @@ const ContactInfos = () => (
             14/A, Tejkunipara, Farmgate, Tejgaon,Dhaka-1215, Bangladesh (Oposite of Farmgate Police
             Box)
         </span>
+
         <br />
+
         <span>
             <span className="font-weight-bold">Development Office:</span> Eastern Housing, Block-D,
             Arambag, Mirpur-7, Dhaka-1216.{" "}
         </span>
 
-        <br />
         <br />
 
         <span className="d-flex justify-content-center w-100 mb-3">
@@ -30,13 +31,14 @@ const ContactInfos = () => (
             <span className="font-weight-bold">Mostak Ahamed:</span> (+88) 01717-545613, Email:
             mostak@asit.com.bd{" "}
         </span>
+
         <br />
+
         <span>
             <span className="font-weight-bold">Phone:</span>(+88-02) 9116439, 9143472, 9118665,
             9033408
         </span>
 
-        <br />
         <br />
 
         <span className="d-flex justify-content-center w-100 mb-3">

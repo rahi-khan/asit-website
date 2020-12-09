@@ -428,6 +428,7 @@ a {
     .contact-section {
         input,
         textarea {
+            border-radius: 0.5rem;
             transition: all 0.2s ease-in-out;
 
             &:focus {
@@ -451,6 +452,7 @@ a {
         }
 
         .contact-infos {
+            border-radius: 1.4rem;
             background-color: #fff;
             height: 100%;
 
