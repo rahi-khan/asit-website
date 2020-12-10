@@ -151,6 +151,7 @@ a {
     }
 }
 
+//* Home
 //! Hero
 .hero {
     margin: calc(5vw + 5vh) 0;
@@ -429,6 +430,7 @@ a {
         textarea {
             border-radius: 0.5rem;
             transition: all 0.2s ease-in-out;
+            padding: 1.2rem;
 
             &:focus {
                 transform: scale(1.04);
