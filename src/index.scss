@@ -147,7 +147,7 @@ a {
             height: 70%;
 
             .title {
-                color: #70ac47;
+                color: #2fa4f1;
             }
 
             .call-to-action {
@@ -467,6 +467,10 @@ a {
 
         .jobTitle {
             @include font-size(1.1rem);
+        }
+
+        .dpt {
+            color: #2fa4f1;
         }
 
         img {

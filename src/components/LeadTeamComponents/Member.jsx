@@ -9,7 +9,9 @@ const Member = ({ data: { name, imgSrc, jobTitle, dpt } }) => (
         <Card.Img variant="top" src={imgSrc} />
 
         <Card.Body className="text-center">
-            <Card.Header as="h4" className="font-weight-bold">{name}</Card.Header>
+            <Card.Header as="h4" className="font-weight-bold">
+                {name}
+            </Card.Header>
 
             <br />
 
@@ -17,7 +19,7 @@ const Member = ({ data: { name, imgSrc, jobTitle, dpt } }) => (
                 <span className="jobTitle">{jobTitle}</span>
             </Card.Text>
             <Card.Text>
-                <span className="dpt">{dpt}</span>
+                <span className="dpt font-weight-bold">{dpt}</span>
             </Card.Text>
 
             <Card.Link href="#">
