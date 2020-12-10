@@ -6,13 +6,11 @@ const NotFound = () => (
         <div className="errorHeading">404 ERROR</div>
         <div className="oops">OOPS!</div>
         <Link to="/">
-            <Button variant="outline-primary" className="backToHomeBtn">
+            <Button variant="outline-light" className="backToHomeBtn">
                 Go Back Home
             </Button>
         </Link>
-        
     </div>
 );
-
 
 export default NotFound;
