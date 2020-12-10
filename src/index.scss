@@ -454,12 +454,17 @@ a {
 //* Lead Team
 .leadteam {
     .card-container {
-        h4 {
+        h4,
+        .dpt {
             @include font-size(1.3rem);
         }
 
         span {
-            @include font-size(1.3rem);
+            color: #afafaf;
+        }
+
+        .jobTitle {
+            @include font-size(1.1rem);
         }
 
         img {
@@ -471,14 +476,5 @@ a {
                 width: calc(11vw + 11vh);
             }
         }
-    }
-
-    .founders,
-    .directors {
-        // border: 2px solid yellow;
-
-        // .cnt {
-        //     border: 2px solid rgb(220, 37, 226);
-        // }
     }
 }

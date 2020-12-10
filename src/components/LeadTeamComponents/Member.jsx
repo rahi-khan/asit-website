@@ -14,10 +14,10 @@ const Member = ({ data: { name, imgSrc, jobTitle, dpt } }) => (
             <br />
 
             <Card.Text>
-                <span>{jobTitle}</span>
+                <span className="jobTitle">{jobTitle}</span>
             </Card.Text>
             <Card.Text>
-                <span>{dpt}</span>
+                <span className="dpt">{dpt}</span>
             </Card.Text>
 
             <Card.Link href="#">
