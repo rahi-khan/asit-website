@@ -262,10 +262,6 @@ a {
                     margin-bottom: 0.5rem;
                 }
 
-                h5 {
-                    @include font-size(1rem);
-                }
-
                 button {
                     border: 1px solid #fff;
                     @include font-size(1rem);
@@ -284,15 +280,15 @@ a {
         margin: calc(10vw + 10vh) 0;
 
         .clients-list {
-            display: grid;
-            grid-template-columns: repeat(5, auto);
-            grid-template-rows: repeat(3, calc(5vw + 5vh));
-            grid-gap: calc(1.5vw + 1.5vh);
+            // display: grid;
+            // grid-template-columns: repeat(5, auto);
+            // grid-template-rows: repeat(3, calc(5vw + 5vh));
+            // grid-gap: calc(1.4vw + 1.4vh);
 
             .client {
                 background-color: transparent;
-                width: 15vw;
-                height: 17vh;
+                width: 14vw;
+                height: 16vh;
                 perspective: 500px;
 
                 &:hover {
