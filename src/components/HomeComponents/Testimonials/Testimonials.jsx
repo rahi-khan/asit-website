@@ -6,7 +6,7 @@ const Testimonials = () => (
         id="testimonials"
         className="testimonials text-center d-flex flex-column justify-content-center align-items-center"
     >
-        <h1 className="mb-3 font-weight-bold display-4">Reviews</h1>
+        <h1 className="mb-5 font-weight-bold display-4">Reviews</h1>
 
         <div className="testimonials-list">
             <div className="row">
