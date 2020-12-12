@@ -7,9 +7,9 @@ const SeniorExe = () => (
         <h1 className="mb-4 font-weight-bold">Senior Executives</h1>
 
         <Container className="cnt">
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
                 {seniorExeData.map(data => (
-                    <Col md="auto">
+                    <Col md={4}>
                         <Member data={data} />
                     </Col>
                 ))}

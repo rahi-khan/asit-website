@@ -8,7 +8,7 @@ const Managements = () => (
         <h1 className="mb-4 font-weight-bold">Managements</h1>
 
         <Container className="cnt">
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
                 {managementsData.map(data => (
                     <Col md={4}>
                         <Member data={data} />

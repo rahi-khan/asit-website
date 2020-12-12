@@ -7,9 +7,9 @@ const Founders = () => (
         <h1 className="mb-4 font-weight-bold">Founders</h1>
 
         <Container className="cnt">
-            <Row>
+            <Row className="justify-content-center">
                 {foundersData.map(data => (
-                    <Col md={6}>
+                    <Col md={5}>
                         <Member data={data} />
                     </Col>
                 ))}

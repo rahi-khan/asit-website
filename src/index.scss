@@ -455,10 +455,13 @@ a {
 
 //* Lead Team
 .leadteam {
+    .card {
+        border-radius: 2rem;
+    }
     .card-container {
         h4,
         .dpt {
-            @include font-size(1.3rem);
+            @include font-size(1.25rem);
         }
 
         span {
@@ -474,13 +477,8 @@ a {
         }
 
         img {
-            width: calc(10vw + 10vh);
+            width: calc(8vw + 8vh);
             border-radius: 50%;
-            transition: all 0.3s ease-in-out;
-
-            &:hover {
-                width: calc(11vw + 11vh);
-            }
         }
     }
 }

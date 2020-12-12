@@ -6,7 +6,7 @@ const Member = ({ data: { name, imgSrc, jobTitle, dpt } }) => (
         text="white"
         className="card-container d-flex flex-column justify-content-center align-items-center mb-5"
     >
-        <Card.Img variant="top" src={imgSrc} />
+        <Card.Img variant="top" src={imgSrc} className="pt-4"/>
 
         <Card.Body className="text-center">
             <Card.Header as="h4" className="font-weight-bold">
