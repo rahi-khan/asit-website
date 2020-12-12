@@ -1,3 +1,4 @@
+import { Row, Col } from "react-bootstrap";
 import Testimonial from "./Testimonial";
 import testimonialData from "./testimonialData";
 
@@ -9,11 +10,13 @@ const Testimonials = () => (
         <h1 className="mb-5 font-weight-bold display-4">Reviews</h1>
 
         <div className="testimonials-list">
-            <div className="row">
+            <Row style={{ border: "2px solid green" }}>
                 {testimonialData.map(data => (
-                    <Testimonial data={data} />
+                    <Col md={4}>
+                        <Testimonial data={data} />
+                    </Col>
                 ))}
-            </div>
+            </Row>
         </div>
     </div>
 );
