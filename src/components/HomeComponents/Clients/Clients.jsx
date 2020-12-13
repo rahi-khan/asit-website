@@ -9,7 +9,7 @@ const Clients = () => (
         <h1 className="mb-5 font-weight-bold display-4">Our Clients</h1>
 
         <div className="clients-list">
-            <div className="row justify-content-center" style={{ border: "2px solid green" }}>
+            <div className="row justify-content-center">
                 {clientsData.map(data => (
                     <div className="col-md-3 mb-4">
                         <Client data={data} key={data.id} />

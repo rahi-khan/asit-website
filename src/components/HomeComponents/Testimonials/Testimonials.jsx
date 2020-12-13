@@ -10,7 +10,7 @@ const Testimonials = () => (
         <h1 className="mb-5 font-weight-bold display-4">Reviews</h1>
 
         <div className="testimonials-list mt-5">
-            <Row style={{ border: "2px solid green" }}>
+            <Row>
                 {testimonialData.map(data => (
                     <Col md={4} className="mb-5">
                         <Testimonial data={data} />
