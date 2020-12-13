@@ -1,12 +1,12 @@
 const Client = ({ data: { imgSrc, title } }) => (
-    <div className="client">
-        <div class="flip-card">
-            <div class="flip-card-front">
-                <img src={imgSrc} alt={title} />
-            </div>
+    <div className="card card-flip h-100">
+        <div className="card-front d-flex justify-content-center">
+            <img src={imgSrc} alt={title} className="card-img" />
+        </div>
 
-            <div class="flip-card-back">
-                <h5 className="font-weight-bold">{title}</h5>
+        <div className="card-back">
+            <div className="card-body d-flex justify-content-center align-items-center">
+                <h4 className="card-title font-weight-bold">{title}</h4>
             </div>
         </div>
     </div>

@@ -1,8 +1,5 @@
 import Client from "./Client";
-import clientsData1 from "./clientsData1";
-import clientsData2 from "./clientsData2";
-import clientsData3 from "./clientsData3";
-import { Row, Col } from "react-bootstrap";
+import clientsData from "./clientsData";
 
 const Clients = () => (
     <div
@@ -11,39 +8,14 @@ const Clients = () => (
     >
         <h1 className="mb-5 font-weight-bold display-4">Our Clients</h1>
 
-        <div className="clients-list d-flex flex-column align-items-start">
-            <Row
-                style={{ border: "2px solid green", width: "100%" }}
-                className="d-flex justify-content-between mb-4"
-            >
-                {clientsData1.map(data => (
-                    <Col md={2}>
+        <div className="clients-list">
+            <div className="row justify-content-center" style={{ border: "2px solid green" }}>
+                {clientsData.map(data => (
+                    <div className="col-md-3 mb-4">
                         <Client data={data} key={data.id} />
-                    </Col>
+                    </div>
                 ))}
-            </Row>
-
-            <Row
-                style={{ border: "2px solid green", width: "100%" }}
-                className="d-flex justify-content-between mb-4"
-            >
-                {clientsData2.map(data => (
-                    <Col md={2}>
-                        <Client data={data} key={data.id} />
-                    </Col>
-                ))}
-            </Row>
-
-            <Row
-                style={{ border: "2px solid green", width: "100%" }}
-                className="d-flex justify-content-between mb-4"
-            >
-                {clientsData3.map(data => (
-                    <Col md={2}>
-                        <Client data={data} key={data.id} />
-                    </Col>
-                ))}
-            </Row>
+            </div>
         </div>
     </div>
 );
