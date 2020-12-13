@@ -3,7 +3,7 @@ const About = () => (
         id="about"
         className="about text-center d-flex flex-column justify-content-center align-items-center"
     >
-        <h1 className="mb-5 font-weight-bold display-4">Who we are</h1>
+        <h1 className="title mb-5 font-weight-bold">Who we are</h1>
 
         <p className="lead">
             Advanced Software & IT Services Ltd. (ASIT) is a public limited company and member of

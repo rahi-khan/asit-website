@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 
 const ERP = () => (
     <div className="mb-3">
-        <h2 className="service-header mb-4 font-weight-bold">ERP</h2>
+        <h2 className="subtitle service-header mb-4 font-weight-bold">ERP</h2>
 
         <div className="gen-services">
             <Row>

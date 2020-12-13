@@ -3,7 +3,7 @@ import ContactInfos from "./ContactInfos";
 
 const Contact = () => (
     <div id="contacts" className="contacts text-center">
-        <h1 className="mb-5 font-weight-bold display-4">Get in touch</h1>
+        <h1 className="title mb-5 font-weight-bold">Get in touch</h1>
 
         <div className="container contact-section text-left mb-5">
             <div className="row">
