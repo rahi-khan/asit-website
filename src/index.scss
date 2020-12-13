@@ -310,24 +310,24 @@ a {
                 margin: 0;
                 display: flex;
             }
-        }
 
-        .card-front {
-            transform: rotateY(0deg);
+            .card-front {
+                transform: rotateY(0deg);
 
-            img {
-                width: 80%;
+                img {
+                    width: 85%;
+                }
             }
-        }
 
-        .card-back {
-            transform: rotateY(180deg);
-            position: absolute;
-            top: 0;
+            .card-back {
+                transform: rotateY(180deg);
+                position: absolute;
+                top: 0;
 
-            h4 {
-                @include font-size(1rem);
-                color: #000;
+                h4 {
+                    @include font-size(1.3rem);
+                    color: #000;
+                }
             }
         }
     }

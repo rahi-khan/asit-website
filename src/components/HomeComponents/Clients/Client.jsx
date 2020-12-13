@@ -1,7 +1,9 @@
 const Client = ({ data: { imgSrc, title } }) => (
     <div className="card card-flip h-100">
-        <div className="card-front d-flex justify-content-center">
-            <img src={imgSrc} alt={title} className="card-img" />
+        <div className="card-front">
+            <div className="card-body d-flex justify-content-center">
+                <img src={imgSrc} alt={title} className="card-img" />
+            </div>
         </div>
 
         <div className="card-back">
