@@ -71,40 +71,26 @@ a {
 
 //* Layout
 //! Header Styles
-.header {
+.navbar {
     height: 13vh;
 
-    h3 {
-        @include font-size(1.5rem);
-    }
-
-    .logo-container {
-        width: 20%;
-
-        &__circle {
-            width: 30%;
-            height: 10vh;
-            border-radius: 50%;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 5px 3px #fff;
-        }
+    img {
+        width: 10%;
     }
 
     .heading {
-        width: 60%;
+        h3 {
+            font-size: calc(1.2vw + 1.2vh);
+        }
+        span {
+            font-size: calc(0.9vw + 0.9vh);
+        }
     }
 
-    .nav-links {
-        width: 20%;
-
-        * {
-            &:hover {
-                transform: scale(1.1);
-                text-decoration: overline;
-            }
+    a {
+        &:hover {
+            transform: scale(1.1);
+            text-decoration: overline;
         }
     }
 }
@@ -115,10 +101,10 @@ a {
 
     .copyright {
         h5 {
-            @include font-size(1.5rem);
+            font-size: calc(1.3vw + 1.3vh);
         }
         span {
-            @include font-size(1rem);
+            font-size: calc(0.9vw + 0.9vh);
         }
     }
 }
@@ -477,6 +463,33 @@ a {
         img {
             width: calc(8vw + 8vh);
             border-radius: 50%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        img {
+            width: 13%;
+        }
+
+        .heading {
+            span {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 520px) {
+    .navbar {
+        img {
+            width: 30%;
+        }
+
+        .heading {
+            h3 {
+                display: none;
+            }
         }
     }
 }

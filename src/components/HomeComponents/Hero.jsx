@@ -5,7 +5,7 @@ const Hero = () => (
     <div id="hero" className="hero">
         <Row>
             {/*//! Heading */}
-            <Col md={6}>
+            <Col md={7}>
                 <div className="heading mb-5 h-100">
                     <h1 className="title font-weight-bold">
                         The Perfect
@@ -38,31 +38,31 @@ const Hero = () => (
             </Col>
 
             {/*//! Stats */}
-            <Col md={6}>
+            <Col md={5}>
                 <div className="stats h-100">
                     <Row>
                         <Col sm={6}>
-                            <div className="box mb-4">
+                            <div className="box mb-4 px-2 text-center">
                                 <i class="far fa-calendar-alt mb-3"></i>
-                                <h4 className="mb-0">2010</h4>
+                                <h4>2010</h4>
                                 <small>We Started</small>
                             </div>
-                            <div className="box mb-4">
+                            <div className="box mb-4 px-2 text-center">
                                 <i class="fas fa-briefcase mb-3"></i>
-                                <h4 className="mb-0">50+</h4>
+                                <h4>50+</h4>
                                 <small>ERP Deliveries</small>
                             </div>
                         </Col>
 
                         <Col sm={6}>
-                            <div className="box mb-4">
+                            <div className="box mb-4 px-2 text-center">
                                 <i class="fas fa-users mb-3"></i>
-                                <h4 className="mb-0">25000+</h4>
+                                <h4>25000+</h4>
                                 <small>Active Users</small>
                             </div>
-                            <div className="box mb-4">
+                            <div className="box mb-4 px-2 text-center">
                                 <i class="far fa-clock mb-3"></i>
-                                <h4 className="mb-0">24/7</h4>
+                                <h4>24/7</h4>
                                 <small>Client Support</small>
                             </div>
                         </Col>

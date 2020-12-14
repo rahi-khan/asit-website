@@ -1,5 +1,5 @@
 const Testimonial = ({ data: { name, job, imgSrc, desc } }) => (
-    <div className="text-center">
+    <div className="text-center mb-5">
         <div className="profile px-3 pb-3 bg-white">
             <img src={imgSrc} alt={name} className="img-fluid" />
 
