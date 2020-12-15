@@ -10,10 +10,12 @@ const Story = () => (
     <CustomScroller>
         <div className="story">
             <Container>
+                <h1 className="story-title my-5 font-weight-bold text-center display-4">Our Journey So Far</h1>
+
                 <VerticalTimeline>
                     {/*//! Elements  */}
-                    {ElementsData.map(data => (
-                        <Element data={data} />
+                    {ElementsData.map((data, idx) => (
+                        <Element data={data} key={idx} />
                     ))}
 
                     {/*//? Final Element */}

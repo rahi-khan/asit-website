@@ -80,10 +80,10 @@ a {
 
     .heading {
         h3 {
-            font-size: calc(1.2vw + 1.2vh);
+            font-size: calc(1.1vw + 1.1vh);
         }
         span {
-            font-size: calc(0.9vw + 0.9vh);
+            font-size: calc(0.85vw + 0.85vh);
         }
     }
 
@@ -496,10 +496,32 @@ a {
 
 //* Story
 .story {
-    .element {
-        h3,
+    .story-title {
+        font-size: calc(2.7vw + 2.7vh);
+    }
+
+    .content {
+        img {
+            // border: 1px solid #000;
+
+            width: 50%;
+            border-radius: 50%;
+        }
+
+        h4,
         h5 {
             color: #000;
         }
+    }
+
+    .date-class {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .stupid-date {
+        color: #000;
+        font-size: 2rem;
     }
 }
