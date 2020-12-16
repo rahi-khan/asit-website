@@ -11,9 +11,9 @@ const Testimonials = () => (
 
         <div className="testimonials-list mt-5">
             <Row>
-                {testimonialData.map(data => (
+                {testimonialData.map((data, idx) => (
                     <Col md={4} className="mb-5">
-                        <Testimonial data={data} />
+                        <Testimonial data={data} key={idx} />
                     </Col>
                 ))}
             </Row>

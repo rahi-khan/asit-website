@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import CustomScroller from "react-custom-scroller";
-import Footer from "../components/Layout/Wrapper/Footer";
+import Footer from "../components/Layout/Footer";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import ElementsData from "../components/StoryComponents/ElementsData";

@@ -1,10 +1,10 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from "../../../images/logo.svg";
+import logo from "../../images/logo.svg";
 
 const Header = () => (
     <>
-        <Navbar variant="dark" expand="lg">
+        <Navbar collapseOnSelect variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand className="d-flex align-items-center">
                     <img
@@ -20,6 +20,7 @@ const Header = () => (
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link>

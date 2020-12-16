@@ -1,13 +1,13 @@
 import { Suspense } from "react";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
-import BG from "../../../images/background-image-overlay.jpg";
+import BG from "../../images/background-image-overlay.jpg";
 import LoadingSpinner from "./LoadingSpinner";
 import Header from "./Header";
 
 const Wrapper = ({ children }) => (
     <Router>
         <div className="App" style={BGstyles}>
-            <Header />
+           <Header />
 
             <Suspense fallback={<LoadingSpinner />}>
                 <Switch>{children}</Switch>
