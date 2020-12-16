@@ -27,15 +27,6 @@
     color: #fff;
 }
 
-a {
-    color: #fff;
-    transition: all 0.25s ease-out;
-
-    &:hover {
-        color: rgb(134, 134, 134);
-    }
-}
-
 .App {
     height: 100vh;
 
@@ -76,6 +67,16 @@ a {
 
     .navbar-collapse {
         transition: all 0.3s ease-in-out;
+
+        a {
+            transition: all 0.25s ease-out;
+
+            &:hover {
+                color: #fff;
+                transform: scale(1.1);
+                text-decoration: overline;
+            }
+        }
     }
 
     img {
@@ -90,19 +91,14 @@ a {
             font-size: calc(0.85vw + 0.85vh);
         }
     }
-
-    a {
-        &:hover {
-            transform: scale(1.1);
-            text-decoration: overline;
-        }
-    }
 }
 
 @media screen and (max-width: 991px) {
     .navbar-nav {
         height: 100vh;
-        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         * {
             @include font-size(2.3rem);

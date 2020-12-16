@@ -5,18 +5,20 @@ import logo from "../../images/logo.svg";
 const Header = () => (
     <Navbar collapseOnSelect variant="dark" expand="lg" fixed="top">
         <Container>
-            <Navbar.Brand className="d-flex align-items-center">
-                <img
-                    src={logo}
-                    alt="Advanced Software And IT Services Ltd. Logo"
-                    className="img-fluid mr-3"
-                />
+            <Nav.Link as={Link} to="/" href="/">
+                <Navbar.Brand className="d-flex align-items-center">
+                    <img
+                        src={logo}
+                        alt="Advanced Software And IT Services Ltd. Logo"
+                        className="img-fluid mr-3"
+                    />
 
-                <div className="heading">
-                    <h3 className="mb-0 mt-2">Advanced Software and IT Services LTD</h3>
-                    <span className="text-muted">Your Professional IT Partner</span>
-                </div>
-            </Navbar.Brand>
+                    <div className="heading">
+                        <h3 className="mb-0 mt-2">Advanced Software and IT Services LTD</h3>
+                        <span className="text-muted">Your Professional IT Partner</span>
+                    </div>
+                </Navbar.Brand>
+            </Nav.Link>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
