@@ -1,5 +1,4 @@
 import Hero from "../components/HomeComponents/Hero";
-import CustomScroller from "react-custom-scroller";
 import About from "../components/HomeComponents/About";
 import Services from "../components/HomeComponents/Services/Services";
 import Clients from "../components/HomeComponents/Clients/Clients";
@@ -9,20 +8,18 @@ import Testimonials from "../components/HomeComponents/Testimonials/Testimonials
 import Contact from "../components/HomeComponents/Contact/Contact";
 
 const Home = () => (
-    <CustomScroller>
-        <div className="home">
-            <Container>
-                <Hero />
-                <About />
-                <Services />
-                <Clients />
-                <Testimonials />
-                <Contact />
-            </Container>
+    <div className="home">
+        <Container>
+            <Hero />
+            <About />
+            <Services />
+            <Clients />
+            <Testimonials />
+            <Contact />
+        </Container>
 
-            <Footer />
-        </div>
-    </CustomScroller>
+        <Footer />
+    </div>
 );
 
 export default Home;
