@@ -10,7 +10,12 @@ const Story = () => (
     <CustomScroller>
         <div className="story">
             <Container>
-                <h1 className="story-title my-5 font-weight-bold text-center display-4">Our Journey So Far</h1>
+                <h1
+                    className="story-title mb-5 font-weight-bold text-center display-4"
+                    style={{ marginTop: "8rem" }}
+                >
+                    Our Journey So Far
+                </h1>
 
                 <VerticalTimeline>
                     {/*//! Elements  */}

@@ -7,7 +7,7 @@ import Header from "./Header";
 const Wrapper = ({ children }) => (
     <Router>
         <div className="App" style={BGstyles}>
-           <Header />
+            <Header />
 
             <Suspense fallback={<LoadingSpinner />}>
                 <Switch>{children}</Switch>

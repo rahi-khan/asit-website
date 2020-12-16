@@ -3,7 +3,7 @@ import Member from "../Member";
 import foundersData from "./FoundersData";
 
 const Founders = () => (
-    <div id="founders" className="founders text-center mt-5 mb-5">
+    <div id="founders" className="founders text-center mb-5" style={{ marginTop: "8rem" }}>
         <h1 className="mb-4 font-weight-bold">Founders</h1>
 
         <Container className="cnt">
