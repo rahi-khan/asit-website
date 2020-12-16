@@ -28,7 +28,7 @@ const Hero = () => (
                         />
                     </h4>
 
-                    <div class="call-to-action mt-5">
+                    <div className="call-to-action mt-5">
                         <div className="ml-3">
                             <p>Want to Digitalize your business? Why not start today?</p>
                             <Button variant="outline-light"> Get Started</Button>
@@ -43,12 +43,12 @@ const Hero = () => (
                     <Row>
                         <Col sm={6}>
                             <div className="box mb-4 px-2 text-center">
-                                <i class="far fa-calendar-alt mb-3"></i>
+                                <i className="far fa-calendar-alt mb-3"></i>
                                 <h4>2010</h4>
                                 <small>We Started</small>
                             </div>
                             <div className="box mb-4 px-2 text-center">
-                                <i class="fas fa-briefcase mb-3"></i>
+                                <i className="fas fa-briefcase mb-3"></i>
                                 <h4>50+</h4>
                                 <small>ERP Deliveries</small>
                             </div>
@@ -56,12 +56,12 @@ const Hero = () => (
 
                         <Col sm={6}>
                             <div className="box mb-4 px-2 text-center">
-                                <i class="fas fa-users mb-3"></i>
+                                <i className="fas fa-users mb-3"></i>
                                 <h4>25000+</h4>
                                 <small>Active Users</small>
                             </div>
                             <div className="box mb-4 px-2 text-center">
-                                <i class="far fa-clock mb-3"></i>
+                                <i className="far fa-clock mb-3"></i>
                                 <h4>24/7</h4>
                                 <small>Client Support</small>
                             </div>

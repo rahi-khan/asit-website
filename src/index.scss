@@ -27,6 +27,10 @@
     color: #fff;
 }
 
+body {
+    background-color: #141414;
+}
+
 .App {
     height: 100vh;
 
@@ -51,7 +55,7 @@
 .story,
 .notFound,
 .spinner {
-    height: 100vh;
+    // height: 100vh;
     overflow-y: scroll;
     scrollbar-width: none;
 
@@ -63,6 +67,8 @@
 //* Layout
 //! Header Styles
 .navbar {
+    position: fixed;
+    width: 100%;
     background-color: rgb(20, 20, 20);
 
     .navbar-collapse {
@@ -87,10 +93,22 @@
         h3 {
             font-size: calc(1.1vw + 1.1vh);
         }
+
         span {
             font-size: calc(0.85vw + 0.85vh);
         }
     }
+}
+
+.active {
+    visibility: visible;
+    transition: all 0.5s;
+}
+
+.hidden {
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: translateY(-100%);
 }
 
 @media screen and (max-width: 991px) {
@@ -110,7 +128,7 @@
 //! Footer Styles
 .footer {
     height: 15vh;
-    background-color: #1b1b1b;
+    background-color: rgb(20, 20, 20);
 
     .copyright {
         h5 {

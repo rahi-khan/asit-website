@@ -8,7 +8,7 @@ import Element from "../components/StoryComponents/Element";
 
 const Story = () => (
     <CustomScroller>
-        <div className="story">
+        <div className="story" style={{ background: `#141414` }}>
             <Container>
                 <h1
                     className="story-title mb-5 font-weight-bold text-center display-4"

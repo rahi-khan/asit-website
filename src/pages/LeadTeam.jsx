@@ -8,7 +8,7 @@ import SeniorExe from "../components/LeadTeamComponents/SeniorExe/SeniorExe";
 
 const LeadTeam = () => (
     <CustomScroller>
-        <div className="leadteam">
+        <div className="leadteam" style={{ background: `#141414` }}>
             <Container>
                 <Founders />
                 <Directors />
