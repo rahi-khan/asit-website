@@ -96,6 +96,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 10rem;
 
         * {
             @include font-size(2.3rem);

@@ -52,13 +52,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/leadteam" href="/leadteam">
                             Lead Team
                         </Nav.Link>
-                        <Nav.Link
-                            as={Link}
-                            to="/story"
-                            href="/story"
-                            classname="mb-0"
-                            style={{ marginBottom: "10rem" }}
-                        >
+                        <Nav.Link as={Link} to="/story" href="/story" classname="mb-0 last-link">
                             Story
                         </Nav.Link>
                     </Nav>
