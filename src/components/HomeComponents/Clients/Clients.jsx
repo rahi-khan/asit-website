@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Client from "./Client";
 import clientsData from "./clientsData";
 
@@ -8,7 +10,7 @@ const Clients = () => (
     >
         <h1 className="title mb-5 font-weight-bold display-4">Our Clients</h1>
 
-        <div className="clients-list">
+        <div className="clients-list mb-4">
             <div className="row justify-content-center">
                 {clientsData.map(data => (
                     <div className="col-md-3 mb-4">
@@ -17,6 +19,10 @@ const Clients = () => (
                 ))}
             </div>
         </div>
+
+        <Button variant="outline-light">
+            <Link to="/moreclients">View More</Link>
+        </Button>
     </div>
 );
 export default Clients;

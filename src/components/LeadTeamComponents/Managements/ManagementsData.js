@@ -40,7 +40,7 @@ const ManagementsData = [
         name: "S.M Absar Rashid",
         imgSrc: nipun,
         jobTitle: "UI & Frontend Dev",
-        dpt: "ERP Implementationd",
+        dpt: "ERP Implementation",
     },
     {
         id: 6,

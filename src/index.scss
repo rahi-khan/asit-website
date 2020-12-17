@@ -55,7 +55,6 @@ body {
 .story,
 .notFound,
 .spinner {
-    // height: 100vh;
     overflow-y: scroll;
     scrollbar-width: none;
 
@@ -186,6 +185,7 @@ body {
             }
             .call-to-action {
                 border-left: 0.4rem solid #fff;
+
                 button {
                     border: 1px solid #fff;
                     color: #fff;
@@ -350,6 +350,31 @@ body {
                     @include font-size(1.3rem);
                     color: #000;
                 }
+            }
+        }
+
+        button {
+            padding: 0.8rem 1.7rem;
+            border: 1px solid #fff;
+            color: #fff;
+            transition: all 0.2s ease-out;
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+                transform: scale(1.1);
+
+                a {
+                    color: #000;
+                }
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
             }
         }
     }
@@ -538,8 +563,6 @@ body {
 
     .content {
         img {
-            // border: 1px solid #000;
-
             width: 50%;
             border-radius: 50%;
         }
@@ -559,5 +582,54 @@ body {
     .stupid-date {
         color: #000;
         font-size: 2rem;
+    }
+}
+
+//* More Clients
+.more-clients {
+    padding-top: calc(8vw + 8vh);
+
+    .title {
+        @include font-size(3.7rem);
+    }
+
+    .card-flip {
+        &:hover {
+            .card-front {
+                transform: rotateY(-180deg);
+            }
+            .card-back {
+                transform: rotateY(0deg);
+            }
+        }
+
+        div {
+            backface-visibility: hidden;
+            transition: transform 250ms;
+            transition-timing-function: linear;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            display: flex;
+        }
+
+        .card-front {
+            transform: rotateY(0deg);
+
+            img {
+                width: 85%;
+            }
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+            position: absolute;
+            top: 0;
+
+            h4 {
+                @include font-size(1.3rem);
+                color: #000;
+            }
+        }
     }
 }
