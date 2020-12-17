@@ -7,7 +7,7 @@ const Pricings = () => (
             {/*//! Starter */}
             <Col md={6}>
                 <Card className="mb-3">
-                    <Card.Header as="h3" className="text-dark font-weight-bold">
+                    <Card.Header as="h3" className="title text-dark font-weight-bold">
                         Starter
                     </Card.Header>
 
@@ -21,7 +21,7 @@ const Pricings = () => (
                         </Card.Text>
 
                         <Row style={{ borderTop: "1px solid #C4C4C4", paddingTop: "1rem" }}>
-                            <Col md={8}>
+                            <Col sm={8}>
                                 <Card.Title className="text-dark font-weight-bold">
                                     Starting from{" "}
                                     <span style={{ color: "#2FA4F1", fontSize: "2rem" }}>50k </span>
@@ -30,7 +30,7 @@ const Pricings = () => (
                             </Col>
 
                             <Col
-                                md={4}
+                                sm={4}
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
@@ -58,7 +58,7 @@ const Pricings = () => (
                             functions of your business.
                         </Card.Text>
                         <Row style={{ borderTop: "1px solid #C4C4C4", paddingTop: "1rem" }}>
-                            <Col md={8}>
+                            <Col sm={8}>
                                 <Card.Title className="text-dark font-weight-bold">
                                     Starting from{" "}
                                     <span style={{ color: "#2FA4F1", fontSize: "2rem" }}>
@@ -69,7 +69,7 @@ const Pricings = () => (
                             </Col>
 
                             <Col
-                                md={4}
+                                sm={4}
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
@@ -100,7 +100,7 @@ const Pricings = () => (
                         </Card.Text>
 
                         <Row style={{ borderTop: "1px solid #C4C4C4", paddingTop: "1rem" }}>
-                            <Col md={8}>
+                            <Col sm={8}>
                                 <Card.Title className="text-dark font-weight-bold">
                                     Starting from{" "}
                                     <span style={{ color: "#2FA4F1", fontSize: "2rem" }}>
@@ -111,7 +111,7 @@ const Pricings = () => (
                             </Col>
 
                             <Col
-                                md={4}
+                                sm={4}
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
@@ -139,18 +139,18 @@ const Pricings = () => (
                         </Card.Text>
 
                         <Row style={{ borderTop: "1px solid #C4C4C4", paddingTop: "1rem" }}>
-                            <Col md={8}>
+                            <Col sm={8}>
                                 <Card.Title className="text-dark font-weight-bold">
                                     Starting from{" "}
                                     <span style={{ color: "#2FA4F1", fontSize: "2rem" }}>
-                                        30 Lacs
+                                        30 Lacs{" "}
                                     </span>
                                     BDT
                                 </Card.Title>
                             </Col>
 
                             <Col
-                                md={4}
+                                sm={4}
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
