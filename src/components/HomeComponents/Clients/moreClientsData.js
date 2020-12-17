@@ -29,7 +29,6 @@ import SPL from "../../../images/Client_logo/MoreClients/SPL.jpg";
 import tanvir from "../../../images/Client_logo/MoreClients/tanvir.jpg";
 import terranova from "../../../images/Client_logo/MoreClients/terranova.jpg";
 import test123 from "../../../images/Client_logo/MoreClients/test123.jpg";
-import zelta from "../../../images/Client_logo/MoreClients/zelta.png";
 
 const moreClientsData = [
     { title: "Singmar", imgSrc: singmar },

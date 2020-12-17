@@ -7,6 +7,7 @@ const AsyncLeadTeam = lazy(() => import("./pages/LeadTeam"));
 const AsyncStory = lazy(() => import("./pages/Story"));
 const AsyncNotFound = lazy(() => import("./pages/NotFound"));
 const AsyncMoreClients = lazy(() => import("./pages/MoreClients"));
+const AsyncMoreServices = lazy(() => import("./pages/ServicesViewMore"));
 
 const App = () => (
     <Wrapper>
@@ -14,6 +15,7 @@ const App = () => (
         <Route exact path="/leadteam" component={AsyncLeadTeam} />
         <Route exact path="/story" component={AsyncStory} />
         <Route exact path="/moreclients" component={AsyncMoreClients} />
+        <Route exact path="/servicesviewmore" component={AsyncMoreServices} />
         <Route component={AsyncNotFound} />
     </Wrapper>
 );

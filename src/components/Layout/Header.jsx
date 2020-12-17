@@ -8,8 +8,8 @@ const Header = () => {
     const [scrollPos, setScrollPos] = useState(0);
 
     const handleScroll = () => {
-        setShow(document.body.getBoundingClientRect().top > scrollPos);
         setScrollPos(document.body.getBoundingClientRect().top);
+        setShow(document.body.getBoundingClientRect().top > scrollPos);
     };
 
     useEffect(() => {

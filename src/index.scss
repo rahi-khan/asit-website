@@ -1,26 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import "~rfs/scss";
 
-//? BGC
-// .hero,
-// .about,
-// .services,
-// .clients,
-// .testimonials,
-// .contacts {
-//     border: 2px solid yellow;
-// }
-
-// .testimonials-list,
-// .contact-section,
-// .clients-list,
-// .gen-services,
-// .erp-services,
-// .heading,
-// .stats {
-//     border: 2px solid red;
-// }
-
 //! Global Styles
 * {
     font-family: "Poppins", sans-serif;
@@ -279,6 +259,10 @@ body {
                     button {
                         border: 1px solid #000;
                         color: #000;
+
+                        a {
+                            color: #000;
+                        }
                     }
                 }
 
@@ -294,12 +278,26 @@ body {
 
                 button {
                     border: 1px solid #fff;
-                    @include font-size(1rem);
                     color: #fff;
                     transition: all 0.2s ease-out;
 
+                    &:hover {
+                        background-color: #fff;
+                        color: #000;
+                        transform: scale(1.1);
+
+                        a {
+                            color: #000;
+                        }
+                    }
+
                     &:active {
                         transform: scale(0.9);
+                    }
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
                     }
                 }
             }
@@ -378,7 +376,6 @@ body {
             }
         }
     }
-
     //! Testimonials
     .testimonials {
         margin: calc(10vw + 10vh) 0;
@@ -630,6 +627,38 @@ body {
                 @include font-size(1.3rem);
                 color: #000;
             }
+        }
+    }
+}
+
+//* Services View More
+.services-view-more {
+    padding-top: calc(8vw + 8vh);
+}
+
+.pricings {
+    button {
+        border: 1px solid #000;
+        color: #000;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            border: 1px solid #000;
+            background-color: #fff;
+            color: #000;
+            transform: scale(1.1);
+
+            a {
+                color: #000;
+            }
+        }
+        &:active {
+            transform: scale(0.9);
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
         }
     }
 }
