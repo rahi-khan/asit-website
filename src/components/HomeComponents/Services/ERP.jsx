@@ -18,11 +18,10 @@ const ERP = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={realestate} alt="realestate" />
                         <h5 className="my-3">Real Estate & Land Management</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/erp/realestate" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/erp/realestate" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -31,11 +30,10 @@ const ERP = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={construction} alt="construction" />
                         <h5 className="my-3">Construction & Project Management</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/erp/construction" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/erp/construction" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -44,11 +42,10 @@ const ERP = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={garments} alt="garments" />
                         <h5 className="my-3">Footwear & Garments</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/erp/footwear" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/erp/footwear" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -57,11 +54,10 @@ const ERP = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={healthcare} alt="healthcare" />
                         <h5 className="my-3">Healthcare & Diagnostic</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/erp/healthcare" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/erp/healthcare" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -70,11 +66,10 @@ const ERP = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={manufacture} alt="manufacture" />
                         <h5 className="my-3">Manufacturing(Pharmacy & Othes)</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/erp/manufacturing" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/erp/manufacturing" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -83,11 +78,10 @@ const ERP = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={trademanagement} alt="trademanagement" />
                         <h5 className="my-3">Trading Management</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/erp/trading" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/erp/trading" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
             </Row>

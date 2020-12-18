@@ -18,11 +18,10 @@ const General = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={accounting} alt="accounting" />
                         <h5 className="my-3">Easy Accounting</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/general/accounting" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/general/accounting" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -31,11 +30,10 @@ const General = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={trading} alt="trading" />
                         <h5 className="my-3">Easy Trading</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/general/trading" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/general/trading" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -44,11 +42,10 @@ const General = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={healthcare} alt="healthcare" />
                         <h5 className="my-3">Easy Healthcare</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/general/healthcare" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/general/healthcare" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -57,11 +54,10 @@ const General = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={travel} alt="travel" />
                         <h5 className="my-3">Travel Agency</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/general/travel" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/general/travel" target="_blank">
+                            <Button variant="outline-light">View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -70,11 +66,10 @@ const General = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={shop} alt="shop" />
                         <h5 className="my-3">Easy Shop & POS</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/general/shop" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/general/shop" target="_blank">
+                            <Button variant="outline-light"> View More </Button>
+                        </Link>
                     </div>
                 </Col>
 
@@ -83,11 +78,10 @@ const General = () => (
                     <div className="service mb-4">
                         <img className="mb-0" src={school} alt="school" />
                         <h5 className="my-3">Easy Schooling</h5>
-                        <Button variant="outline-light">
-                            <Link to="/services/general/school" target="_blank">
-                                View More
-                            </Link>
-                        </Button>
+
+                        <Link to="/services/general/school" target="_blank">
+                            <Button variant="outline-light">View More </Button>
+                        </Link>
                     </div>
                 </Col>
             </Row>

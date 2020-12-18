@@ -20,9 +20,9 @@ const Clients = () => (
             </div>
         </div>
 
-        <Button variant="outline-light">
-            <Link to="/moreclients">View More</Link>
-        </Button>
+        <Link to="/moreclients">
+            <Button variant="outline-light">View More </Button>
+        </Link>
     </div>
-);
+)
 export default Clients;
