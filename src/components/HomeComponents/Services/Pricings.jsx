@@ -2,12 +2,14 @@ import { Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Pricings = () => (
-    <div className="pricings">
+    <div className="pricings mb-5">
+        <h1 className="title text-center mb-5 font-weight-bold">Pricings</h1>
+
         <Row className="mb-4">
             {/*//! Starter */}
             <Col md={6}>
                 <Card className="mb-3">
-                    <Card.Header as="h3" className="title text-dark font-weight-bold">
+                    <Card.Header as="h3" className="text-dark font-weight-bold">
                         Starter
                     </Card.Header>
 

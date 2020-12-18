@@ -634,10 +634,20 @@ body {
 
 //* Services View More
 .services-view-more {
+    .title {
+        @include font-size(3.5rem);
+    }
+
     padding-top: calc(8vw + 8vh);
 }
 
 .pricings {
+    margin-top: 10rem;
+
+    .title {
+        @include font-size(3.5rem);
+    }
+
     button {
         border: 1px solid #000;
         color: #000;
