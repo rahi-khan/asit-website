@@ -1,16 +1,29 @@
+import { Card } from "react-bootstrap";
+
 const Testimonial = ({ data: { name, job, imgSrc, desc } }) => (
-    <div className="text-center mb-5">
-        <div className="profile px-3 pb-3 bg-white">
-            <img src={imgSrc} alt={name} className="img-fluid" />
-
-            <blockquote className="mt-3 blockquote text-dark">{desc}</blockquote>
-
-            <h3 className="mt-4 font-weight-bold">
-                {name} <br />
-                <span className="text-muted font-weight-bold">{job}</span>
-            </h3>
+    <Card className="text-center d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
+            <Card.Img
+                variant="top"
+                src={imgSrc}
+                style={{
+                    width: "10rem",
+                    height: "10rem",
+                    borderRadius: "50%",
+                }}
+            />
         </div>
-    </div>
+
+        <Card.Header as="h2" className="text-dark">
+            {name}
+        </Card.Header>
+
+        <Card.Body>
+            <Card.Title className="font-weight-bold text-dark">{job}</Card.Title>
+
+            <Card.Text className="text-dark">{desc}</Card.Text>
+        </Card.Body>
+    </Card>
 );
 
 export default Testimonial;

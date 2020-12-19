@@ -1,6 +1,13 @@
-import { Row, Col } from "react-bootstrap";
 import Testimonial from "./Testimonial";
 import testimonialData from "./testimonialData";
+import Carousel from "react-elastic-carousel";
+
+const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 1, itemsToScroll: 2 },
+    { width: 768, itemsToShow: 1 },
+    { width: 1200, itemsToShow: 1 },
+];
 
 const Testimonials = () => (
     <div
@@ -9,15 +16,11 @@ const Testimonials = () => (
     >
         <h1 className="title mb-5 font-weight-bold display-4">Reviews</h1>
 
-        <div className="testimonials-list mt-5">
-            <Row>
-                {testimonialData.map((data, idx) => (
-                    <Col md={4} className="mb-5">
-                        <Testimonial data={data} key={idx} />
-                    </Col>
-                ))}
-            </Row>
-        </div>
+        <Carousel breakPoints={breakPoints}>
+            {testimonialData.map(data => (
+                <Testimonial data={data} key={data.id} />
+            ))}
+        </Carousel>
     </div>
 );
 

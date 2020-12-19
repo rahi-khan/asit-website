@@ -385,64 +385,21 @@ body {
             @include font-size(3.7rem);
         }
 
-        .testimonials-list {
-            h1 {
-                text-align: center;
-                font-weight: bold;
-                color: #ff9800;
-                padding-bottom: 10px;
-                text-transform: uppercase;
-            }
+        .rec-arrow,
+        .rec-dot {
+            background-color: #234358;
+            color: #fff;
 
-            .profile {
-                border-radius: 2.5rem;
-                padding-top: 4.5rem;
-
-                img {
-                    top: -60px;
-                    position: absolute;
-                    left: calc(50% - 3.75rem);
-                    width: 8rem;
-                    height: 8rem;
-                    border-radius: 50%;
-                }
-
-                h3 {
-                    @include font-size(1.5rem);
-                    color: #2fa4f1;
-
-                    span {
-                        @include font-size(1rem);
-                    }
-                }
-
-                blockquote {
-                    @include font-size(0.95rem);
-                    line-height: 1.8rem;
-
-                    &::before {
-                        content: "\201C";
-                        @include font-size(3.125rem);
-                        position: relative;
-                        line-height: 1.25rem;
-                        color: #2fa4f1;
-                        bottom: -15px;
-                        right: 5px;
-                    }
-
-                    &::after {
-                        content: "\201C";
-                        @include font-size(3.125rem);
-                        position: relative;
-                        line-height: 0.625rem;
-                        color: #2fa4f1;
-                        bottom: -15px;
-                        left: 5px;
-                    }
-                }
+            &:hover {
+                background-color: #2fa4f1;
             }
         }
+
+        .rec-dot_active {
+            box-shadow: 0 0 1px 3px #2fa4f1;
+        }
     }
+
     //! Contact
     .contacts {
         .title {
