@@ -14,14 +14,16 @@ const Testimonial = ({ data: { name, job, imgSrc, desc } }) => (
             />
         </div>
 
-        <Card.Header as="h2" className="text-dark">
+        <Card.Header as="h3" className="font-weight-bold" style={{ color: "#2fa4f1" }}>
             {name}
         </Card.Header>
 
         <Card.Body>
-            <Card.Title className="font-weight-bold text-dark">{job}</Card.Title>
+            <Card.Title className="font-weight-bold text-muted">{job}</Card.Title>
 
-            <Card.Text className="text-dark">{desc}</Card.Text>
+            <Card.Text>
+                <blockquote className="text-dark">{desc}</blockquote>
+            </Card.Text>
         </Card.Body>
     </Card>
 );

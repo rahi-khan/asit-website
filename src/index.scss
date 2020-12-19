@@ -398,6 +398,31 @@ body {
         .rec-dot_active {
             box-shadow: 0 0 1px 3px #2fa4f1;
         }
+
+        blockquote {
+            // @include font-size(1rem);
+            line-height: 1.8rem;
+
+            &::before {
+                content: "\201C";
+                @include font-size(3.125rem);
+                position: relative;
+                line-height: 1.25rem;
+                color: #2fa4f1;
+                bottom: -15px;
+                right: 5px;
+            }
+
+            &::after {
+                content: "\201C";
+                @include font-size(3.125rem);
+                position: relative;
+                line-height: 0.625rem;
+                color: #2fa4f1;
+                bottom: -15px;
+                left: 5px;
+            }
+        }
     }
 
     //! Contact
