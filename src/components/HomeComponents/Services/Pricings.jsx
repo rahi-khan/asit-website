@@ -1,5 +1,5 @@
 import { Row, Col, Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Pricings = () => (
     <div className="pricings mb-5">
@@ -36,7 +36,7 @@ const Pricings = () => (
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
-                                    <Link to="#">Contact Now</Link>
+                                    <HashLink to="/#contacts">Contact Now</HashLink>
                                 </Button>
                             </Col>
                         </Row>
@@ -75,7 +75,7 @@ const Pricings = () => (
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
-                                    <Link to="#">Contact Now</Link>
+                                    <HashLink to="/#contacts">Contact Now</HashLink>
                                 </Button>
                             </Col>
                         </Row>
@@ -117,7 +117,7 @@ const Pricings = () => (
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
-                                    <Link to="#">Contact Now</Link>
+                                    <HashLink to="/#contacts">Contact Now</HashLink>
                                 </Button>
                             </Col>
                         </Row>
@@ -156,7 +156,7 @@ const Pricings = () => (
                                 className="d-flex justify-content-center align-items-center"
                             >
                                 <Button variant="outline-light">
-                                    <Link to="#">Contact Now</Link>
+                                    <HashLink to="/#contacts">Contact Now</HashLink>
                                 </Button>
                             </Col>
                         </Row>
